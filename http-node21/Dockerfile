@@ -12,3 +12,5 @@ COPY --from=node /usr/lib/libstdc++.so.6 /usr/lib/libstdc++.so.6
 
 # Node HTTP server
 COPY ./server.js /usr/src/server.js
+
+# you do nothing
